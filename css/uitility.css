@@ -1,0 +1,254 @@
+@media (min-width: 1400px) {
+  .hero-section {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .hero-section h2 {
+    width: 70%;
+    font-size: 72px;
+    font-weight: 900;
+  }
+  .hero-section p {
+    width: 80%;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px;
+  }
+
+  .hero-content {
+    width: 50%;
+  }
+  .img-hero {
+    width: 50%;
+  }
+
+  .btn {
+    display: flex;
+    margin: 10px 0px 30px 0px;
+  }
+  .btn1 {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 22px;
+    font-weight: 700;
+    box-shadow: 4px 4px 0px var(--black-color);
+    margin-right: 10px;
+    border: 3px solid var(--black-color);
+    transform: translate(-2px, -2px);
+    padding: 15px 40px;
+  }
+
+  .btn2 {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-size: 22px;
+    font-weight: 700;
+    box-shadow: 4px 4px 0px var(--black-color);
+    transform: translate(-2px, -2px);
+    border: 3px solid var(--black-color);
+    padding: 15px 40px;
+  }
+  .img-hero img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .img-hero img:hover {
+    transform: translate(-2px, -2px);
+    transition: 0.3s;
+  }
+}
+
+
+@media ((min-width: 1400px)) {
+  .articluue-card {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+
+    gap: 70px;
+  }
+
+  .ARTICLE-left {
+    width: 70%;
+  }
+  .ARTICLE-right {
+    width: 30%;
+    position: sticky;
+    top: 0px;
+  }
+  .brutal {
+    display: flex;
+    gap: 50px;
+  }
+  .article-card {
+    display: flex;
+    gap: 50px;
+  }
+  .article-card-img {
+    margin-top: 20px;
+    width: 250px;
+    height: 142px;
+  }
+  .article-card-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .ARTICLE-left h3 {
+    font-weight: 900;
+    font-size: 48px;
+    padding: 30px 0px;
+  }
+  .ARTICLE-left {
+    position: relative;
+  }
+  .FRESH-CONTENT {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 30px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 17.5px;
+    font-weight: 700;
+    box-shadow: 4px 4px 0px var(--black-color);
+    border: 3px solid var(--black-color);
+    padding: 10px 20px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .author-cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 26px;
+  }
+  .author-card {
+    width: 48%;
+    box-sizing: border-box;
+    margin: 3px 0px;
+  }
+  .author-card h4 {
+    padding: 10px 0px;
+    font-size: 29.25px;
+    font-weight: 900;
+  }
+  .author-card p {
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .REBELLION {
+    display: flex;
+    gap: 40px;
+  }
+  .REBELLION-1 {
+    width: 50%;
+  }
+  .REBELLION-2 {
+    width: 50%;
+  }
+  .REBELLION-1 p {
+    font-size: 20.5px;
+    font-weight: 500;
+  }
+  .week span {
+    font-size: 20px;
+
+    font-weight: 400;
+  }
+
+  .REBELLION-1 h4 {
+    font-size: 36.5px;
+    font-weight: 900;
+  }
+  .REBELLION-2 h5 {
+    font-size: 32.25px;
+    font-weight: 900;
+  }
+}
+
+@media (min-width: 1000px) {
+  .there {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+  }
+  .review {
+    width: 100%;
+    box-sizing: border-box;
+
+    margin-bottom: 40px;
+  }
+  .CATEGORIEs {
+    width: 40%;
+    box-sizing: border-box;
+  }
+  .NEWSLETTEr {
+    width: 60%;
+    box-sizing: border-box;
+  }
+}
+
+
+
+@media (min-width: 1400px) {
+  .review p,
+  .NEWSLETTEr p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .endd p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .endd span {
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .there {
+    width: 100%;
+    display: flex;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+  }
+  .review {
+    width: 36%;
+    box-sizing: border-box;
+
+    margin-bottom: 40px;
+  }
+  .CATEGORIEs {
+    width: 30%;
+    box-sizing: border-box;
+  }
+  .NEWSLETTEr {
+    width: 33%;
+    box-sizing: border-box;
+  }
+}
+
+
+@media ((min-width: 1431px)) {
+  label input,
+  .humbrger,
+  .slide {
+    display: none;
+  }
+}
+@media ((max-width: 1430px)) {
+  .na-q,
+  .bbb-s {
+    display: none;
+  }
+}
